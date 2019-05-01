@@ -5,7 +5,10 @@ client.on('ready', () => {
 })
 client.on('message', msg => {
   if (msg.content === '!hai') {
-    msg.reply('Hey too There1')
+    msg.reply('Hey too There')}
+  
+    else if (msg.content === '!Nazi') {
+    msg.reply('Go to GULAG')
   }
 })
 
